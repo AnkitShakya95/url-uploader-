@@ -193,8 +193,7 @@ async def account_login(bot: Client, m: Message):
 
             elif '/master.mpd' in url:
              id =  url.split("/")[-2]
-             url =  "https://as-multiverse-3eec9f18a633.herokuapp.com/pw/" + id + "/master.m3u8&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjgyODQ4MTguMDA1LCJkYXRhIjp7Il9pZCI6IjY2NDE4MTczYmE1MzAzYzM1MjM5ZTlhNiIsInVzZXJuYW1lIjoiOTY1MzA4OTMyNSIsImZpcnN0TmFtZSI6IlByaW5jZSIsImxhc3ROYW1lIjoiS3VtYXIiLCJvcmdhbml6YXRpb24iOnsiX2lkIjoiNWViMzkzZWU5NWZhYjc0NjhhNzlkMTg5Iiwid2Vic2l0ZSI6InBoeXNpY3N3YWxsYWguY29tIiwibmFtZSI6IlBoeXNpY3N3YWxsYWgifSwicm9sZXMiOlsiNWIyN2JkOTY1ODQyZjk1MGE3NzhjNmVmIl0sImNvdW50cnlHcm91cCI6IklOIiwidHlwZSI6IlVTRVIifSwiaWF0IjoxNzI3NjgwMDE4fQ.rHfd-64ydVzG6IfWkI2TUBYPFVTeNc_wVvdY8tAWcPo@ASMultiverse_Update
-
+             url =  "https://d26g5bnklkwsh4.cloudfront.net/" + id + "/master.m3u8"
             name1 = links[i][0].replace("\t", "").replace(":", "").replace("/", "").replace("+", "").replace("#", "").replace("|", "").replace("@", "").replace("*", "").replace(".", "").replace("https", "").replace("http", "").strip()
             name = f'{str(count).zfill(3)}) {name1[:60]}'
 

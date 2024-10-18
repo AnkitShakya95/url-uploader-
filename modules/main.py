@@ -181,6 +181,9 @@ async def account_login(bot: Client, m: Message):
 
             V = links[i][1].replace("file/d/","uc?export=download&id=").replace("www.youtube-nocookie.com/embed", "youtu.be").replace("?modestbranding=1", "").replace("/view?usp=sharing","") # .replace("mpd","m3u8")
             url = "https://" + V
+             
+           elif link.startswith("https://d1d34p8vz63oiq.cloudfront.net/"):
+            url = ParseLink.is_pw(link)
 
             if "visionias" in url:
                 async with ClientSession() as session:

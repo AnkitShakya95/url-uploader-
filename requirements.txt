@@ -19,7 +19,7 @@ motor
 aiohttp
 aiofiles
 pytz
-ffmpeg
+ffmpeg==7.0
 umongo==3.1.0
 speedtest-cli
 Flask==1.1.2

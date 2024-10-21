@@ -17,7 +17,7 @@ websockets==11.0.3
 yt-dlp==2024.10.07
 motor
 aiohttp
-aiofiles==24.1.0
+aiofiles
 pytz
 ffmpeg==7.0
 umongo==3.1.0

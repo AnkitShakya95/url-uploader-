@@ -2,7 +2,7 @@ import os
 import time
 import datetime
 import aiohttp
-import aiofiles==24.1.0
+import aiofiles
 import asyncio
 import logging
 import requests

@@ -4,7 +4,7 @@ services:
     plan: free
     env: docker
     dockerfilePath: Dockerfile
-    repo: https://github.com/AnkitShakya95/text-leech-bot2
+    repo: https://github.com/AnkitShakya95/text-leech-bot3
     branch: main
     autoDeploy: false
     envVars:

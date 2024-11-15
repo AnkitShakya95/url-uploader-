@@ -15,7 +15,7 @@ temp_data = {}
 
 # Authorized users with expiration times
 authorized_users = {
-    '6365058696': float('inf')  # Permanent authorization for the owner
+    '1226915008': float('inf')  # Permanent authorization for the owner
 }
 
 # Function to check if user is authorized
@@ -45,7 +45,7 @@ def send_welcome(message):
 @bot.message_handler(commands=['addid'])
 def add_user(message):
     user_id = str(message.from_user.id)
-    if user_id != '6365058696':
+    if user_id != '1226915008':
         bot.send_message(message.chat.id, " Only the owner can use this command.")
         return
 
